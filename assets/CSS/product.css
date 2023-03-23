@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.logo{
+    text-align: center;
+    padding: 15px;  
+}
+
+.search{
+    margin: -65px 3px;
+    position: absolute;
+    
+}
+
+.search input{
+    width: 180px;
+    border: 1px solid #C4CAD0;
+    padding: 3px;
+    margin: 0;
+    float: left;
+}
+
+.search img{
+    width: 10px;
+    height: 10px;
+}
+
+.search button{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #C4CAD0;
+}
+
+nav{
+    background-color: #C4CAD0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>li{
+    list-style:none;
+}
+
+nav a{
+    padding: 14px 16px;
+    display: inline-block;
+    color: black;
+    text-decoration:none;
+}
+
+nav li:hover{
+    background-color: #878C8F;
+    color: white;
+    text-decoration:none;
+}
+
+nav li{
+    position: relative;
+}
+
+nav .second{
+    border: #ccc 1px solid;
+    position: absolute;
+    z-index: 99;
+    top: 100%;
+    min-width: 98px;
+    background-color: white;
+}
+
+nav .second li:hover{
+    background-color: #ccc;
+}
+
+nav .second a{
+    border-bottom: #ccc 1px solid;
+}
+  
+nav .second a:last-child{
+    border-bottom: none;
+}
+
+nav .second{
+    display: none;
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+nav li:hover>.second{
+    display: block;
+}
+
+h3{
+    color: #878C8F;
+    margin: 0;
+}
+
+.menu{
+    width: 100px;
+    margin: 40px 40px 100% 40px;
+    text-align: center;
+    float: left;
+}
+
+.menu a{
+    background-color: white;
+    color: #878C8F;
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.container{
+    width: 85%;
+    display: flex;
+
+}
+
+h1 input{
+    border: none;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.card{
+    width: 30%;
+    width: 400px;
+    height: 400px;
+    margin: 60px 70px 60px 70px;
+    cursor: pointer;
+    float: left;
+}
+
+.card img{
+    
+    cursor:pointer;
+    transition:all 0.6s ease-in-out;
+}
+
+.card img:hover{
+    display: block;
+    transform: scale(1.3);
+}
+
+.detail{
+    width: 30%;
+    margin: 60px 0;
+    float: right;
+}
+
+.title{
+    border: 0;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.price_title{
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    border: 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.number{
+    border: none;
+    border-top: 1px solid #C4CAD0;
+    border-bottom: 1px solid #C4CAD0;
+    height: 35px;
+    width:25px;
+    text-align: center;
+}
+
+.num-button1{
+    border: 1px solid #C4CAD0;
+    height: 35px;
+    width:25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.num-button2{
+    border:1px solid #C4CAD0;
+    height: 35px;
+    width:25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #878C8F;
+    color: white;
+    border: none;
+    margin: 30px 0;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+.my-rating-6 {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    position: absolute;
+}
+
+.my-rating-6>.jq-star>svg{
+    width: 30px;  
+    height: 50px; 
+}
+
+.comment{
+    width: 85%;
+    padding: 10px 100px;
+    float: left; 
+}
+
+textarea{
+    margin: 70px 0 5px 0 ;
+    display: flex;
+    
+}
+
+h2{
+    display: flex;
+    align-items: center;
+}
+
+h2 input{
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
